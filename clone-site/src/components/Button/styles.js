@@ -7,16 +7,24 @@ export const ButtonContainer = styled.button`
     border: none;
     margin-right: 12px;
 
-    color:#fff;
+    color: black;
+    font-family: 'Open Sans';
+    font-weight: bold;
     padding: 2px 12px;
     min-width: 120px;
     width: 100%;
 
+
     ${({variant})=> variant !== 'primary' && css`
-        min-height: 70px;
+        max-height: 70px;
         height: 33px;
 
         background: #E4105D;
+
+        &:hover {
+            opacity: 0.6;
+            cursor: pointer;
+        }
 
         &::after {
             content: '';
