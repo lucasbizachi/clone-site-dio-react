@@ -4,6 +4,8 @@ export const ButtonContainer = styled.button`
     background: #565656;
     border-radius: 22px;
     position: relative;
+    border: none;
+    margin-right: 12px;
 
     color:#fff;
     padding: 2px 12px;
