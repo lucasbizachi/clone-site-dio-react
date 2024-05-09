@@ -1,7 +1,7 @@
 import styled from "styled-components";
 export const Container = styled.main`
     width: 100%;
-    max-width: 80%;
+    max-width: 60%;
     margin: 0 auto;
     margin-top: 120px;
 
@@ -22,7 +22,7 @@ export const Title = styled.h2`
     color: #fff;
 `
 export const TitleHighLight = styled.span`
-    color: #E4105D;
+    color: #gray;
 `
 export const TextContent = styled.p`
     font-family: Open Sans;
@@ -36,3 +36,7 @@ export const TextContent = styled.p`
     color: #fff;
 `
 
+export const  Column = styled.div`
+    flex:{({flex}) => flex};
+    padding-right: 24px;
+`
