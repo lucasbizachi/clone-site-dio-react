@@ -8,7 +8,7 @@ export const Container = styled.main`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-otems: center;
+    align-items: center;
 `
 export const Wrapper = styled.div`
     max-width: 300px;
@@ -29,7 +29,7 @@ export const Title = styled.h2`
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
-    width: 320px;
+    width: 620px;
     margin-bottom: 20px;
     line-height: 44px;
 

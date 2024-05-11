@@ -8,7 +8,7 @@ export const Container = styled.main`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-otems: center;
+    
 `
 export const Title = styled.h2`
     font-family: Open Sans;
@@ -21,8 +21,9 @@ export const Title = styled.h2`
 
     color: #fff;
 `
-export const TitleHighLight = styled.span`
+export const TitleHighLight = styled.p`
     color: #ffffff80;
+    margin-bottom: 24px;
     
 `
 export const TextContent = styled.p`
