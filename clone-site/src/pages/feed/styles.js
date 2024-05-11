@@ -22,7 +22,8 @@ export const Title = styled.h2`
     color: #fff;
 `
 export const TitleHighLight = styled.span`
-    color: #gray;
+    color: #ffffff80;
+    
 `
 export const TextContent = styled.p`
     font-family: Open Sans;
