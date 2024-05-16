@@ -21,7 +21,7 @@ export const Column = styled.div`
 export const Row = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 5px;
     align-items: center;
     margin-top: 20px;
 `
@@ -61,8 +61,27 @@ export const TextCadastro = styled.p`
 font-family: Open Sans;
 font-style: normal;
 font-weight: 400;
-font-size: 12px;
+font-size: 16px;
 width: 420px;
+padding-top: 20px;
 margin-bottom: 20px;
 line-height: 22px;
+`
+export const ContaText = styled.p`
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #fff;
+`
+export const LoginText = styled.p`
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #48bf53;
 `
