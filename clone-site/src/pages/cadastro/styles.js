@@ -37,7 +37,27 @@ export const Title = styled.h2`
 
     color: #fff;
 `
+
+export const TitleCadastro = styled.p`
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+    line-height: 44px;
+
+`
 export const SubtitleCadastro = styled.p`
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 35px;
+    line-height: 25px;
+
+`
+
+export const TextCadastro = styled.p`
 font-family: Open Sans;
 font-style: normal;
 font-weight: 400;

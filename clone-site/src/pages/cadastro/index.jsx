@@ -1,8 +1,8 @@
-
+import { MdEmail, MdLock, MdPerson } from 'react-icons/md';
 import { Header } from "../../components/Header";
 import { Input} from "../../components/Input";
 import { Button } from "../../components/Button";
-import { Column, Container, Title, SubtitleCadastro} from './styles';
+import { Column, Container, Title, TextCadastro, Wrapper, Row, TitleCadastro, SubtitleCadastro } from './styles';
 import { useForm } from "react-hook-form";
 
 const Cadastro = () => {
@@ -20,17 +20,24 @@ const Cadastro = () => {
                     A plataforma para você aprender com experts, dominar as principais tecnologias e entrar mais rápido nas empresas mais desejadas.
                 </Title>
             </Column>
+           
             <Column>
-                <form onSubmit={handleSubmit(onSubmit)}>
-                    <Input name="nome" control={control} placeholder="Nome completo" />
-                    <Input name="email" control={control} placeholder="Email" />
-                    <Input name="password" control={control} placeholder="Password" />
-                    <Button title="Criar minha conta" variant="secondary" type="submit"/>
-                </form>
+                <Wrapper>
+                    <TitleCadastro>Comece agora grátis</TitleCadastro>
+                    <SubtitleCadastro>Crie sua conta e make the change._</SubtitleCadastro>
+                    <form onSubmit={handleSubmit(onSubmit)}>
+                        <Input name="nome" control={control} placeholder="Nome completo" leftIcon={<MdPerson />} />
+                        <Input name="email" control={control} placeholder="Email" leftIcon={<MdEmail />} />
+                        <Input name="password" control={control} placeholder="Password" leftIcon={<MdLock />} />
+                        <Button title="Criar minha conta" variant="secondary" type="submit"/>
+                    </form>
+                    <Row>
+                    <TextCadastro>
+                        Ao clicar em "criar minha conta grátis", declaro que aceito as Políticas de Privacidade e os Termos de Uso da DIO.
+                    </TextCadastro>
+                </Row>
+                </Wrapper>
             </Column>
-            <SubtitleCadastro>
-            Ao clicar em "criar minha conta grátis", declaro que aceito as Políticas de Privacidade e os Termos de Uso da DIO.
-            </SubtitleCadastro>
         </Container>
 </>)
 }
