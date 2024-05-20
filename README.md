@@ -1,4 +1,4 @@
-# Clone site DIO React
+# Clone site DIO - React
 
 ## Descrição Geral
 O projeto é um exercício ou desafio no qual foi recriado um site usando a biblioteca React. 
