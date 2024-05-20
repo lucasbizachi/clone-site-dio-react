@@ -14,3 +14,6 @@ Este tipo de projeto é comum para praticar e demonstrar habilidades em desenvol
 * index.js ou index.tsx: Arquivo que inicializa a aplicação React e renderiza o componente principal (App) no DOM.
 * public/: Contém arquivos públicos que são servidos diretamente, como o index.html, ícones, e outros recursos estáticos.
 * package.json: Arquivo de configuração do npm que lista as dependências do projeto, scripts de construção e informações do projeto.
+
+## Conclusão
+Este repositório demonstra a habilidade em recriar um site utilizando React, aplicando conceitos de componentização, roteamento e estilização. É uma excelente prática para aprimorar habilidades em desenvolvimento front-end com React. Para uma visão completa do projeto, você pode navegar pelos arquivos e pastas diretamente no repositório do GitHub.
